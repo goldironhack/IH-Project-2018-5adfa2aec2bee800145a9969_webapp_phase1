@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!--BOOTSTRAP 4 .CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!--JQUERY 3.3.1 .JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP 4 JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <!--STYLE CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--TITLE-->
+    <title>NYU STERN SCHOOL OF BUSINESS</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 scroll-list-left wallpaper-sidebar">
+                <div class="side-bar" id="side-bar-left">
+
+                    <div class="logotype">
+                        <img class="img-fluid" src="https://raw.githubusercontent.com/lmbaeza/ImageIronHacks/master/logo-NY.png" alt="prototype-logo">
+                    </div>
+
+                    <div class="navegator">
+
+                        <div class="division-title">
+                            <div class="title-nav">
+                                <h2>Navigator</h2>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="division-icon">
+                            <div class="nav-icons">
+
+                                <!--this is the only input that is active so far-->
+                                <a href="#">
+                                    <input type="image" id="input-map" src="https://image.flaticon.com/icons/svg/139/139087.svg" width="20%" height="20%" data-toggle="tooltip"
+                                        title="Maps">
+                                </a>
+
+                                <a href="#">
+                                    <input type="image" id="input-train" src="https://image.flaticon.com/icons/svg/788/788278.svg" width="20%" height="20%" data-toggle="tooltip"
+                                        title="Train">
+                                </a>
+
+                                <a href="#">
+                                    <input type="image" src="https://image.flaticon.com/icons/png/512/354/354622.png" width="20%" height="20%" data-toggle="tooltip"
+                                        title="Home">
+                                </a>
+
+                                <a href="#">
+                                    <input type="image" src="https://image.flaticon.com/icons/png/512/212/212370.png" width="20%" height="20%" data-toggle="tooltip"
+                                        title="Museum">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="division-icon">
+                            <div class="nav-icons">
+                                <a href="#">
+                                    <input type="image" src="https://image.flaticon.com/icons/svg/123/123505.svg" width="20%" height="20%" data-toggle="tooltip"
+                                        title="Bicycle">
+                                </a>
+
+                                <a href="#">
+                                    <input type="image" src="https://image.flaticon.com/icons/png/512/373/373463.png" width="20%" height="20%" data-toggle="tooltip"
+                                        title="Crimes">
+                                </a>
+
+                                <a href="#">
+                                    <input type="image" src="https://image.flaticon.com/icons/svg/169/169367.svg" width="20%" height="20%" data-toggle="tooltip"
+                                        title="Weather">
+                                </a>
+
+                                <a href="#">
+                                    <input type="image" src="https://image.flaticon.com/icons/png/512/523/523941.png" width="20%" height="20%" data-toggle="tooltip"
+                                        title="Gallery">
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9 scroll-list-right">
+                <div class="card">
+                    <div class="col-md-auto center" style="padding-right: 0px !important;padding-left: 0px !important;">
+                        <div class="label-blue-title" style="width: 100%;margin: 0px;">
+                            <span class="label-blue">NYU STERN SCHOOL OF BUSINESS</span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+                        <div id="map"></div>
+                    </div>
+                </div>
+
+
+                <footer class="footer center">
+                    &copy; Iron Hacks - Universidad Nacional de Colombia - 2018
+                </footer>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--SCRIPT-->
+    <script type="text/javascript" src="index.js"></script>
+
+    <!--SCRIPT GOOGLE MAPS API-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB63_2wCGLLuvMadVGTh8oaaPKIcH67sBs&callback=initMap">
+    </script>
+</body>
+
+</html>

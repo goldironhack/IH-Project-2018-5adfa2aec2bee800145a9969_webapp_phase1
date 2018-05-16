@@ -1,0 +1,84 @@
+body {
+  /*remove the horizontal scroll*/
+  overflow-x: hidden;
+}
+/*Style Google Maps*/
+#map {
+  height: 600px;
+  width: 100%;
+}
+
+/*Vertical Scroll List*/
+.scroll-list-left {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/*Vertical Scroll List*/
+.scroll-list-right {
+  overflow-y: scroll;
+  height: 100vh;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/*Wallpaper Of The SideBar*/
+.wallpaper-sidebar {
+  background-color: #003e71;
+  color: #fff;
+}
+
+/*Vertical Bar Above The Title*/
+.division-title {
+  border-top: white solid 8px;
+  color: #fff;
+  margin-left: 8px;
+}
+
+/*Navigator Title*/
+.title-nav {
+  text-align: center !important;
+}
+
+/*Sidebar in the nav*/
+.division-icon {
+  margin-left: 8px;
+  border-left: #fff solid 8px;
+  border-right: #fff solid 8px;
+}
+
+/*Navigation icon*/
+.nav-icons {
+  margin-left: 30px;
+}
+
+/*Title label*/
+.label-blue {
+  color: #fff;
+  background-color: #003e71;
+  font-weight: bolder;
+  padding: 0.25em 0.4em;
+}
+
+/*Title label*/
+.label-blue-title {
+  font-size: 2.5em;
+  color: #fff;
+  background-color: #003e71;
+  font-weight: bolder;
+  padding: 0.25em 0.4em;
+  border-radius: 5px;
+}
+
+/*Center text of a component*/
+.center {
+  text-align: center;
+}
+
+/*Footer*/
+.footer {
+  padding: 2.6rem;
+  background-color: #003d70;
+  color: #fff;
+  width: 100%;
+}
